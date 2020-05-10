@@ -1,3 +1,8 @@
+main {
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
 .navigation {
     background-color:#90A959;
     padding: 16px;
@@ -8,6 +13,7 @@
     color: white;
     display: inline-block;
     margin-right: 20px;
+    
 }
 
 .navigation__link--homepage {
@@ -48,6 +54,11 @@
     color: #6494AA;
 }
 
+.day-summary {
+   padding: 10px;
+    margin: 10px;  
+}
+
 .day-summary__title {
     color: #6494AA;
 }
@@ -56,6 +67,13 @@
     color: #6494AA;
 }
 
+.notes {
+    padding: 10px;
+    margin: 10px;
+}
+
 footer {
     color: #999999;
+    max-width: 1000px;
+    margin: 10px auto;
 }
