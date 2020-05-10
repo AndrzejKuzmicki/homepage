@@ -10,23 +10,23 @@
 
 <body>
     <header id="top">
-        <nav>
-            <a href="index.html">HOME</a>
-            <a href="html-nauka.html">HTML</a>
-            <a href="css-nauka.html">CSS</a>
-            <a href="javascript-nauka.html">JAVASCRIPT</a>
+        <nav class="navigation">
+            <a class="navigation__link" href="index.html">HOME</a>
+            <a class="navigation__link" href="html-nauka.html">HTML</a>
+            <a class="navigation__link navigation__link--css" href="css-nauka.html">CSS</a>
+            <a class="navigation__link" href="javascript-nauka.html">JAVASCRIPT</a>
         </nav>
     </header>
     <main>
-        <header class="top">
-            <h1 class="title">CSS</h1>
+        <header class="header">
+            <h1 class="header__title">CSS</h1>
         </header>
-        <section>
-            <h2 class="chapterTitle"> Nauka CSSa</h2>
-            <img src="malowanie.jpg" alt="malowanie">
+        <section class="chapter">
+            <h2 class="chapter__title"> Nauka CSSa</h2>
+            <img class="chapter__picture" src="malowanie.jpg" alt="malowanie">
         </section>
-        <section class="notes">
-            <p>1) Kogo? Czego? Stylów :) <br> 2) Składnia - selektor { właściwość: wartość;} <br> 3) Stylowanie i tworzenie dokumentu style.css 
+        <article class="notes">
+            <p class="notes__topics">1) Kogo? Czego? Stylów :) <br> 2) Składnia - selektor { właściwość: wartość;} <br> 3) Stylowanie i tworzenie dokumentu style.css 
            4) Style inline <br>5) Prawdziwe selektory <br>6) Klasy i ich selektory <br>7) Stylowanie za pomocą id <br>8) Łączenie selektorów <br>9) !important <br>10) Specyficzność w CSS </p>
 
             
@@ -34,8 +34,8 @@
         </section>
         
     </main>
-    <footer> Strona domowa Andrzeja Kuźmickiego. Wszystkie treści są efektem uczestnictwa w kursie
-        WTF: Co ten frontend. <a href="#top">Wróć na górę</a> </footer>
+    <footer class="footer"> Strona domowa Andrzeja Kuźmickiego. Wszystkie treści są efektem uczestnictwa w kursie
+        WTF: Co ten frontend. <a class="top-side" href="#top">Wróć na górę</a> </footer>
 </body>
 
 </html>

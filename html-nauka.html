@@ -10,33 +10,33 @@
 
 <body>
     <header id="top">
-        <nav class="menu">
-            <a href="index.html">HOME</a>
-            <a href="html-nauka.html">HTML</a>
-            <a href="css-nauka.html">CSS</a>
-            <a href="javascript-nauka.html">JAVASCRIPT</a>
+        <nav class="navigation">
+            <a class="navigation__link" href="index.html">HOME</a>
+            <a class="navigation__link navigation__link--html" href="html-nauka.html">HTML</a>
+            <a class="navigation__link" href="css-nauka.html">CSS</a>
+            <a class="navigation__link" href="javascript-nauka.html">JAVASCRIPT</a>
         </nav>
     </header>
     <main>
-        <header class="top">
-            <h1 class="title">HTML</h1>
+        <header class="header">
+            <h1 class="header__title">HTML</h1>
         </header>
-        <section>
-            <h2 class="chapterTitle"> Nauka HTMLa</h2>
-            <img src="szkielet.jpg" alt="Struktura, budowa">
+        <section class="chapter">
+            <h2 class="chapter__title"> Nauka HTMLa</h2>
+            <img class="chapter__picture" src="szkielet.jpg" alt="Struktura, budowa">
         </section>
-        <section class="notes">
+        <article class="notes">
          
 
-                <p>1) Znaczniki i ich budowa <br> 2)  html, head niewidoczne (! + tab), body widoczne - ciało dokumentu <br> 3) main - główna część dokumentu <br> 4) header - nagłówek dokumentu/ sekcji/ artykułu <br> 5) section - sekcja dokumentu <br> 6) article - samodzielne treści <br> 7) footer - stopka dokumentu/sekcji <br> 8) p - paragraf <br> 9) h1-h6 - nagłówki <br> 10) <strong> &ltbr> lub &lt/br> </strong>- przejście do nowej linii <br>11) <strong> &ltb>&lt/b> </strong>- tekst pogrubiony <br>12) <strong> &lti>&lt/i> </strong>- tekst pochylony <br>13) <strong> &ltstrong>&lt/strong> </strong>- tekst pogrubiony, wyróżnienie semantyczne, ma znaczenie dla wyszukiwarki <br>14) <strong> &ltem>&lt/em> </strong>- tekst pochylony, wyróżnienie semantyczne, ma znaczenie dla wyszukiwarki <br>15) <strong> a </strong>- linki/łącza wewnątrz dokumentu, &lta href = "" target = "">opis łącza&lt/a> <br>16) <strong> &ltnav>&lt/nav> </strong>- nawigacja witryny <br>17) <strong> img </strong>- obrazek o podanym adresie, &ltimg src = "" alt = ""/></p>
+                <p class="notes__topics">1) Znaczniki i ich budowa <br> 2)  html, head niewidoczne (! + tab), body widoczne - ciało dokumentu <br> 3) main - główna część dokumentu <br> 4) header - nagłówek dokumentu/ sekcji/ artykułu <br> 5) section - sekcja dokumentu <br> 6) article - samodzielne treści <br> 7) footer - stopka dokumentu/sekcji <br> 8) p - paragraf <br> 9) h1-h6 - nagłówki <br> 10) <strong> &ltbr> lub &lt/br> </strong>- przejście do nowej linii <br>11) <strong> &ltb>&lt/b> </strong>- tekst pogrubiony <br>12) <strong> &lti>&lt/i> </strong>- tekst pochylony <br>13) <strong> &ltstrong>&lt/strong> </strong>- tekst pogrubiony, wyróżnienie semantyczne, ma znaczenie dla wyszukiwarki <br>14) <strong> &ltem>&lt/em> </strong>- tekst pochylony, wyróżnienie semantyczne, ma znaczenie dla wyszukiwarki <br>15) <strong> a </strong>- linki/łącza wewnątrz dokumentu, &lta href = "" target = "">opis łącza&lt/a> <br>16) <strong> &ltnav>&lt/nav> </strong>- nawigacja witryny <br>17) <strong> img </strong>- obrazek o podanym adresie, &ltimg src = "" alt = ""/></p>
 
             
 
         </section>
         
     </main>
-    <footer> Strona domowa Andrzeja Kuźmickiego. Wszystkie treści są efektem uczestnictwa w kursie
-        WTF: Co ten frontend. <a href="#top">Wróć na górę</a> </footer>
+    <footer class="footer"> Strona domowa Andrzeja Kuźmickiego. Wszystkie treści są efektem uczestnictwa w kursie
+        WTF: Co ten frontend. <a class="top-side" href="#top">Wróć na górę</a> </footer>
 </body>
 
 </html>

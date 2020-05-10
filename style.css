@@ -1,30 +1,58 @@
+.navigation {
+    background-color:#90A959;
+    padding: 16px;
+    border-radius: 8px;
+}
 
+.navigation__link {
+    color: white;
+    display: inline-block;
+    margin-right: 20px;
+}
 
-.title {
+.navigation__link--homepage {
+    background-color: #aaa;
+    padding: 3px;
+}
+
+.navigation__link--html {
+    background-color: #aaa;
+    padding: 3px;
+}
+
+.navigation__link--css {
+    background-color: #aaa;
+    padding: 3px;
+}
+
+.navigation__link--javascript {
+    background-color: #aaa;
+    padding: 3px;
+}
+
+.header__title {
     color: #A63D40;
 }
 
-#top .menu {
-    color: #6494AA;
-}
-
-p {
-    color: #6494AA;
-}
-
-body {
-   color: #0F0E0E;
-}
-
- section .chapterTitle {
-    color: #90A959;
-}
-
-.week {
+.about-me__title {
     color: #E9B872;
+    
 }
 
-.diary {
+.notes__title {
+    color: #A63D40;
+
+}
+
+.week__title {
+    color: #6494AA;
+}
+
+.day-summary__title {
+    color: #6494AA;
+}
+
+.chapter__title {
     color: #6494AA;
 }
 
