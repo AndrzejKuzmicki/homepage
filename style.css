@@ -1,39 +1,62 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.page {
+    background: linear-gradient(45deg, rgba(37, 104, 230, 0.2) 0%, rgba(102,102,102,0.2) 35%,   rgba(102,102,102,0.2) 57%,  rgba(37, 104, 230, 0.2) 100%);
+    min-height: 100vh; 
+    text-align: center; 
+}
+
 main {
-    max-width: 1000px;
     margin: 20px auto;
+    max-width: 1000px;
 }
 
 .navigation {
     background-color:#90A959;
-    padding: 16px;
     border-radius: 8px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    margin: 0;
+    padding: 16px;
 }
 
 .navigation__link {
+    background-color:rgb(164, 184, 119);
     color: white;
     display: inline-block;
+    margin-right: 16px;
     margin-right: 20px;
-    
-}
-
-.navigation__link--homepage {
-    background-color: #aaa;
-    padding: 3px;
-}
-
-.navigation__link--html {
-    background-color: #aaa;
-    padding: 3px;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    width: 150px;   
 }
 
 .navigation__link--css {
     background-color: #aaa;
-    padding: 3px;
+   
+}
+
+.navigation__link--homepage {
+    background-color: #aaa;
+    
+}
+
+.navigation__link--html {
+    background-color: #aaa;
+    
 }
 
 .navigation__link--javascript {
     background-color: #aaa;
-    padding: 3px;
+    
 }
 
 .header__title {
@@ -45,35 +68,64 @@ main {
     
 }
 
-.notes__title {
-    color: #A63D40;
-
-}
-
-.week__title {
-    color: #6494AA;
-}
-
-.day-summary {
-   padding: 10px;
-    margin: 10px;  
-}
-
-.day-summary__title {
-    color: #6494AA;
-}
-
-.chapter__title {
-    color: #6494AA;
-}
-
 .notes {
     padding: 10px;
     margin: 10px;
 }
 
+.notes__title {
+    color: #A63D40;
+
+}
+
+.notes__picture--js {
+    margin-bottom: 32px;
+}
+
+.week__title, .day-summary__title  {
+    background-color: #6494AA;
+    color: white;
+    padding: 8px;
+    width: fit-content;
+    margin: 0 auto;
+}
+.day-summary {
+    margin: 10px; 
+    padding: 10px;
+     
+}
+
+
+
+.day-summary__list {
+    
+    list-style: none;
+    
+}
+
+.day-summary__list--point {
+   
+  
+    
+}
+
+.day-summary__list--order {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+
+.chapter__title {
+    color: #6494AA;
+}
+
 footer {
     color: #999999;
-    max-width: 1000px;
     margin: 10px auto;
+    max-width: 1000px;  
 }
+
+.trello-link {
+    text-transform: lowercase;
+}
+
