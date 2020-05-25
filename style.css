@@ -71,15 +71,23 @@ main {
 .notes {
     padding: 10px;
     margin: 10px;
+    display: grid;
+    grid-template-areas: ".notes__title .notes__title"
+    ".notes__picture--js .notes__picture--js"
+    ".week-second .week-third";
+    grid-template-columns: 1fr 1fr;
 }
 
 .notes__title {
     color: #A63D40;
-
+    grid-column-start: 1;
+    grid-column-end: 3;
 }
 
 .notes__picture--js {
     margin-bottom: 32px;
+    grid-column-start: 1;
+    grid-column-end: 3;
 }
 
 .week__title, .day-summary__title  {
@@ -127,5 +135,17 @@ footer {
 
 .trello-link {
     text-transform: lowercase;
+}
+
+.week-second {
+    border: 2px solid #6494AA;
+    margin: 8px;
+    padding: 8px;
+}
+
+.week-third {
+    border: 2px solid #6494AA;
+    margin: 8px;
+    padding: 8px;
 }
 
