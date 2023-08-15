@@ -7,25 +7,32 @@
         <link rel="stylesheet" href="style.css" type="text/css">
 	</head>
 	<body>
+		<header>
+			<nav>
+				<a href="index.html">Strona główna</a>
+				<a href="nauka-html.html">Nauka html-a</a>
+			</nav>
+		</header>
 		<main>
-			<header>
+			<header id="top">
 				<h1>Andrzej Kuźmicki - Strona domowa</h1>
 			</header>
 
 			<section>
 				<h2>Kim jestem?</h2>
+				<img src="symp.jpg" alt="Zdjęcie Andrzeja">
 				<p>
 					Hej! Na co dzień pracuję jako automatyk w dużej firmie. Z czasem
 					jednak chciałbym się przebranżowić i zostać Frontend Developerem z
 					prawdziwego zdarzenia. W wolnym czasie lubię robić zdjęcia i tańczyć
 					bachatę. Efekty mojej nauki przedstawię na tej stronie. Mam nadzieję,
-					że znajdziesz tutaj trochę przydatnych rzeczy.
+					że znajdziesz tutaj trochę przyidatnych rzeczy.
 				</p>
 			</section>
 
 			<section>
 				<article>
-					<h3>Notatki z WTF: Co ten frontend</h3>
+					<h3>Notatki z <a href="https://cotenfrontend.pl" target="_blank">WTF:</a> Co ten frontend</h3>
 					<p>
 						Jak stworzyć prawidłowego HTMLa? Tworzenie zgodnego ze standardami
 						HTMLa to sztuka, którą do perfekcji opanowało niewielu. Jeśli chcesz
@@ -46,10 +53,12 @@
 				</article>
 			</section>
 
-			<footer>
-				<p>Strona domowa Andrzeja Kuźmickiego, wszystkie treści są efektem
-				przerabiania szkolenia WTF: Co ten frontend</p>
-			</footer>
+			
 		</main>
+
+		<footer>
+			<p>Strona domowa Andrzeja Kuźmickiego, wszystkie treści są efektem
+			przerabiania szkolenia <a href="https://cotenfrontend.pl" target="_blank">WTF:</a> Co ten frontend. <a href="#top">Do góry 👍</a></p>
+		</footer>
 	</body>
 </html>
