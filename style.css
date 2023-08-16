@@ -9,3 +9,23 @@ h2 {
 section {
     background: #cabfb8;
 }
+
+body {
+    margin: 0 auto;
+    width: 100vw;
+}
+
+header {
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+main {
+    margin: 20px auto;
+    max-width: 1440px;
+}
+
+footer {
+    margin: 0 auto;
+    max-width: 1440px;
+}
