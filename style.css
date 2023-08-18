@@ -1,5 +1,6 @@
 h1 {
     color: #a86c27;
+    margin-bottom: 0;
 }
 
 h2 {
@@ -14,9 +15,11 @@ body {
     
     margin: 0 auto;
     max-width: 1440px;
+    padding: 16px;
 }
 
 header {
+    
     position: sticky;
     top: 0px;
     padding: 8px;
@@ -24,6 +27,9 @@ header {
 }
 
 .navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #cabfb8;
     padding: 16px;
     border-radius: 8px;
@@ -33,9 +39,15 @@ header {
     color: #fff;
     text-decoration: none;
     padding: 16px;
+    font-size: 24px;
 }
 
 .section {
     background: #dcdcdc;
     margin-bottom: 16px;
+}
+
+.header__description--js {
+    color: #a86c27;
+    margin-top: 0;
 }
